@@ -37,7 +37,7 @@ var factorial = function (num) {
 
 var combination = function (num, comb) {
   if (num > 1) {
-    return (factorial(num)) / (comb * factorial(num - comb))
+    return factorial(num) / (comb * factorial(num - comb))
   }
 
   return 0;
